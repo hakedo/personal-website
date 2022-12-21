@@ -1,5 +1,6 @@
 import React from 'react';
 import "./App.css";
+import Home from './components/home/Home'
 
 const App = () => {
    return (
@@ -7,7 +8,7 @@ const App = () => {
          {/* <Header /> */}
 
          <main className='main'>
-            {/* <Home /> */}
+            <Home />
             {/* <About /> */}
             {/* <Skills /> */}
             {/* <Services /> */}
