@@ -5,7 +5,7 @@ import { BsPatchCheckFill } from 'react-icons/bs'
 const ItemSkill = ({language, level}) => {
    return (
       <div className="skills-data">
-         <BsPatchCheckFill />
+         <BsPatchCheckFill className='bx-badge-check'/>
 
          <div>
             <h3 className="skills-name">{language}</h3>

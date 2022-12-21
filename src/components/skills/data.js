@@ -79,7 +79,7 @@ const data = [
          level: "Advanced"
       },
       {
-         language: "Rest APIs",
+         language: "RestAPIs",
          level: "Intermediate"
       },
       {
@@ -91,11 +91,11 @@ const data = [
          level: "Intermediate"
       },
       {
-         language: "Visual Studio",
-         level: "Intermediate"
+         language: "CAD",
+         level: "Experienced"
       },
       {
-         language: "CAD/Graphic Design",
+         language: "Design",
          level: "Experienced"
       }
    ]

@@ -47,6 +47,11 @@
    font-size: var(--tiny-font-size);
 }
 
+.skills .bx-badge-check {
+   font-size: 1rem;
+   color: var(--title-color);
+}
+
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {

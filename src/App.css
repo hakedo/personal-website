@@ -171,9 +171,14 @@ img {
 }
 
 .button-right-icon {
-   
    margin-left: 0.8rem;
    font-size: 1.3rem;
+}
+
+.button-left-icon {
+   margin-bottom: 0.1rem;
+   margin-right: 0.8rem;
+   font-size: 1rem;
 }
 
 /*=============== BREAKPOINTS ===============*/

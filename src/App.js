@@ -3,6 +3,8 @@ import "./App.css";
 import Home from './components/home/Home'
 import About from './components/about/About'
 import Skills from './components/skills/Skills'
+import Experience from './components/experience/Experience'
+import Footer from './components/footer/Footer'
 
 const App = () => {
    return (
@@ -13,13 +15,12 @@ const App = () => {
             <Home />
             <About />
             <Skills />
-            {/* <Services /> */}
-            {/* <Qualification /> */}
+            <Experience />
             {/* <Work /> */}
             {/* <Contact /> */}
          </main>
 
-         {/* <Footer /> */}
+         <Footer />
          {/* <ScrollUp /> */}
       </>
    )
