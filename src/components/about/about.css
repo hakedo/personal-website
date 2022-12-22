@@ -4,26 +4,10 @@
    column-gap: 4rem;
 }
 
-.about-me {
-   width: 90%;
-   aspect-ratio: 1/1;
-   border-radius: 2rem;
-   background: linear-gradient(45deg, transparent, rgb(121, 121, 121), transparent);
-   display: grid;
-   place-items: center;
-}
-
 .about-img {
    width: 350px;
    border-radius: 1.5rem;
    justify-self: center;
-   overflow: hidden;
-   transform: rotate(10deg);
-   transition: all 400ms ease;
-}
-
-.about-img:hover {
-   transform: rotate(0deg);
 }
 
 .about-info {
@@ -64,42 +48,46 @@
 /* For large devices */
 @media screen and (max-width: 992px) {
    .about-container {
-      grid-template-columns: 1fr;
-      row-gap: 2.5rem;
+       grid-template-columns: 1fr;
+       row-gap: 2.5rem;
    }
 
    .about-img {
-      width: 220px;
+       width: 220px;
    }
 
    .about-box {
-      padding: 0.75rem 0.5rem;
+       padding: 0.75rem 0.5rem;
+   }
+
+   .about-data {
+       text-align: center;
    }
 
    .about-info {
-      justify-content: center;
+       justify-content: center;
    }
 
    .about-description {
-      padding: 0 5rem;
-      margin-bottom: 2rem;
+       padding: 0 5rem;
+       margin-bottom: 2rem;
    }
-}
-
-/* For medium devices */
-@media screen and (max-width: 576px) {
+ }
+ 
+ /* For medium devices */
+ @media screen and (max-width: 576px) {
    .about-info {
-      grid-template-columns: repeat(3, 1fr);
+       grid-template-columns: repeat(3, 1fr);
    }
 
    .about-description {
-      padding: 0;
+       padding: 0;
    }
-}
-
-/* For small devices */
-@media screen and (max-width: 350px) {
+ }
+ 
+ /* For small devices */
+ @media screen and (max-width: 350px) {
    .about-info {
-      grid-template-columns: repeat(2, 1fr);
+       grid-template-columns: repeat(2, 1fr);
    }
-}
+ }

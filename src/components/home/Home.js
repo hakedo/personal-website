@@ -23,11 +23,13 @@ const Home = () => {
                      I'm creative designer/developer based in Los Angeles, CA.
                      I specialize in creating web applications. I am open for new opportunities and interesting projects.
                   </p>
-                  <a href="#contact" className="button button-flex">
-                     Say Hello<TbMessageDots className="button-right-icon" />
-                  </a>
+                  <div>
+                     <a href="#contact" className="button button-flex">
+                        Say Hello<TbMessageDots className="button-right-icon" />
+                     </a>
+                  </div>
                </div>
-               
+
             </div>
          </div>
       </section>
