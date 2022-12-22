@@ -1,12 +1,12 @@
 import React from 'react'
 import ItemSkill from './ItemSkill'
 
-const ListSkill = ({ data, index }) => {
-   const list = data[index].map((item, i) => {
+const ListSkill = ({ expData, index }) => {
+   const list = expData[index].map((item, i) => {
       return (
          <ItemSkill
-            language={data[index][i].language}
-            level={data[index][i].level}
+            language={expData[index][i].language}
+            level={expData[index][i].level}
          />
       )
    })

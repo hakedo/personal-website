@@ -1,6 +1,6 @@
 import React from "react";
 import "./skills.css";
-import data from './data'
+import expData from './expData'
 import ListSkill from './ListSkill'
 
 const Skills = () => {
@@ -13,22 +13,22 @@ const Skills = () => {
 
             <div className="skills-content">
                <h3 className="skills-title">Frontend Developer</h3>
-               <ListSkill data={data} index={0} />
+               <ListSkill expData={expData} index={0} />
             </div>
 
             <div className="skills-content">
                <h3 className="skills-title">Backend Developer</h3>
-               <ListSkill data={data} index={1} />
+               <ListSkill expData={expData} index={1} />
             </div>
 
             <div className="skills-content">
                <h3 className="skills-title">Programming Languages</h3>
-               <ListSkill data={data} index={2} />
+               <ListSkill expData={expData} index={2} />
             </div>
 
             <div className="skills-content">
                <h3 className="skills-title">Other Skills</h3>
-               <ListSkill data={data} index={3} />
+               <ListSkill expData={expData} index={3} />
             </div>
             
          </div>
