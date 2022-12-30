@@ -15,9 +15,7 @@ const About = () => {
         <div className="about-data">
 
           <p className="about-description">
-            Frontend developer, I create web pages with UI / UX user interface,
-            I have years of experience and many clients are happy with the
-            projects carried out.
+            I started my journey as a programmer 2 years ago when I enrolled in a Bachelor's Degree program for Computer Science (expected graduation Fall 2023). During the following years, I developed my skills in web applications & object-oriented programming. I am passionate and eager to desing and build applications and software.
           </p>
 
           <a download="edgar_resume" href={CV} className="button button--flex">
