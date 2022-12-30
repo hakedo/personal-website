@@ -31,7 +31,7 @@ const Footer = () => {
 
             <div className="footer-social">
                <a
-                  href="https://www.facebook.com/"
+                  href="https://github.com/hakedo"
                   className="footer-social-link"
                   target="_blank"
                   rel="noreferrer"
@@ -40,7 +40,7 @@ const Footer = () => {
                </a>
 
                <a
-                  href="https://www.instagram.com/"
+                  href="https://www.linkedin.com/in/ehakobyan99/"
                   className="footer-social-link"
                   target="_blank"
                   rel="noreferrer"

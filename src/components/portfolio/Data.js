@@ -1,49 +1,49 @@
-import Work1 from "../../assets/work1.jpg";
-import Work2 from "../../assets/work2.jpg";
-import Work3 from "../../assets/work3.jpg";
-import Work4 from "../../assets/work4.jpg";
-import Work5 from "../../assets/work5.jpg";
+import cryptoApp from '../../assets/crypto_app.png'
+import expenseApp from '../../assets/expense_app.png'
+import faceApp from '../../assets/face_app.png'
+import weatherApp from '../../assets/weather_app.png'
+import kanji from '../../assets/kanji.jpg'
 
 export const projectsData = [
    {
       id: 1,
-      image: Work1,
-      title: "Web design",
-      category: "web",
-      github: "https://github.com",
-      url: "https://github.com",
+      image: weatherApp,
+      title: "Weather App",
+      description: "ReactJS, Weather API",
+      github: "https://github.com/hakedo/weather-app-react",
+      url: "https://hakedo-weather-app.netlify.app/",
    },
    {
       id: 2,
-      image: Work2,
-      title: "App movil",
-      category: "app",
-      github: "https://github.com",
-      url: "https://github.com",
+      image: cryptoApp,
+      title: "CryptoWorld App",
+      description: "ReactJS, Redux Toolkit, RapidAPI",
+      github: "https://github.com/hakedo/crypto-app",
+      url: "",
    },
    {
       id: 3,
-      image: Work3,
-      title: "Brand design",
-      category: "design",
-      github: "https://github.com",
-      url: "https://github.com",
+      image: expenseApp,
+      title: "Expense Tracker",
+      description: "ReactJS",
+      github: "https://github.com/hakedo/expense-tracker-react",
+      url: "https://hakedo-expense-tracker.netlify.app/",
    },
    {
       id: 4,
-      image: Work4,
-      title: "App movil",
-      category: "app",
-      github: "https://github.com",
-      url: "https://github.com",
+      image: faceApp,
+      title: "Face Recognition App",
+      description: "ReactJS, Clarifai API",
+      github: "https://github.com/hakedo/face-recognition-app",
+      url: "https://hakedo-face-recognition-app.netlify.app/",
    },
    {
       id: 5,
-      image: Work5,
-      title: "Web design",
-      category: "web",
-      github: "https://github.com",
-      url: "https://github.com",
+      image: kanji,
+      title: "Kanji Learning Algorithm",
+      description: "Java",
+      github: "https://github.com/hakedo/Kanji-Learning-Algorithm",
+      url: "",
    },
 ];
 

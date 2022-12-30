@@ -10,7 +10,7 @@ const Social = () => {
          </div>
          <div className="home-social">
             <a
-               href="https://www.instagram.com/"
+               href="https://www.linkedin.com/in/ehakobyan99/"
                className="home-social-icon"
                target="_blank"
                rel="noreferrer"
@@ -19,7 +19,7 @@ const Social = () => {
             </a>
 
             <a
-               href="https://dribbble.com/"
+               href="https://github.com/hakedo"
                className="home-social-icon"
                target="_blank"
                rel="noreferrer"
