@@ -1,18 +1,18 @@
 import { defineField, defineType } from 'sanity'
 
 export default defineType({
-   name: 'home',
-   title: 'Home',
+   name: 'about',
+   title: 'About',
    type: 'document',
    fields: [
       defineField({
-         name: 'text',
-         title: 'Text',
+         name: 'content',
+         title: 'Content',
          type: 'text',
       }),
       defineField({
-         name: 'mainImage',
-         title: 'Main image',
+         name: 'aboutImage',
+         title: 'About Image',
          type: 'image',
          options: {
             hotspot: true,
