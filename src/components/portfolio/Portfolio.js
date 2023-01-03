@@ -5,9 +5,9 @@ import PortfolioList from "./PortfolioList";
 
 const Portfolio = () => {
    return (
-      <section class="section" id="portfolio">
-         <h2 class="section-title">Portfolio</h2>
-         <span class="section-subtitle">Most recent work</span>
+      <section className="section" id="portfolio">
+         <h2 className="section-title">Portfolio</h2>
+         <span className="section-subtitle">Most recent work</span>
 
          <PortfolioList data={projectsData} />
       </section>

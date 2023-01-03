@@ -5,6 +5,7 @@ const ListSkill = ({ expData, index }) => {
    const list = expData[index].map((item, i) => {
       return (
          <ItemSkill
+            key={expData[index][i].language}
             language={expData[index][i].language}
             level={expData[index][i].level}
          />
